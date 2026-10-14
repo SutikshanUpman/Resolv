@@ -1,0 +1,20 @@
+# Dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Large challenge data and submission files: never commit (several GB)
+/dataset/
+/output/
+
+# Local environment
+.env.local
+.env.*.local
+.vercel
+
+# Screenshots and reports from local checks
+app/.checks/
+
+# OS and editor files
+.DS_Store
+Thumbs.db

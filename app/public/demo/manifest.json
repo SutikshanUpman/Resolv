@@ -1,0 +1,310 @@
+{
+ "description": "Demo data for the showcase site, sampled from the real submission by scripts/build-demo-data.ts.",
+ "seed": 42,
+ "inputs": {
+  "candidates": {
+   "file": "candidate_pairs.tsv",
+   "bytes": 158890914
+  },
+  "matching": {
+   "file": "matching_results.tsv",
+   "bytes": 97860112
+  },
+  "testS1": {
+   "file": "test_source1.tsv",
+   "bytes": 175022086
+  },
+  "testS2": {
+   "file": "test_source2.tsv",
+   "bytes": 509456422
+  },
+  "testS3": {
+   "file": "test_source3.tsv",
+   "bytes": 506002772
+  },
+  "trainS1": {
+   "file": "train_source1.tsv",
+   "bytes": 210069713
+  },
+  "trainS2": {
+   "file": "train_source2.tsv",
+   "bytes": 489301488
+  },
+  "trainS3": {
+   "file": "train_source3.tsv",
+   "bytes": 503705637
+  },
+  "trainTruth": {
+   "file": "train_ground_truth.tsv",
+   "bytes": 127015583
+  }
+ },
+ "fullTestSet": {
+  "s1": 1732544,
+  "records": 9969589,
+  "s2Records": 4887273,
+  "s3Records": 5082316,
+  "candidatePairs": 10594837,
+  "matchedPairs": 5852231,
+  "s1WithoutCandidates": 5354,
+  "emptyMatchRows": 100129,
+  "candidatesPerS1": 6.11519,
+  "matchesPerS1": 3.37783,
+  "maxCandidates": 22,
+  "maxMatches": 11,
+  "matchHistogram": {
+   "0": 100129,
+   "1": 105187,
+   "2": 308789,
+   "3": 423671,
+   "4": 373323,
+   "5": 242333,
+   "6": 118623,
+   "7": 45175,
+   "8": 12610,
+   "9": 2399,
+   "10": 293,
+   "11": 12
+  },
+  "byCountry": {
+   "US": {
+    "s1": 663106,
+    "matchesPerS1": 3.38538,
+    "emptyShare": 0.05816,
+    "buckets": {
+     "0": 38569,
+     "1-2": 156756,
+     "3-5": 398536,
+     "6-7": 63286,
+     "8+": 5959
+    }
+   },
+   "France": {
+    "s1": 259452,
+    "matchesPerS1": 3.32144,
+    "emptyShare": 0.05748,
+    "buckets": {
+     "0": 14913,
+     "1-2": 65019,
+     "3-5": 154591,
+     "6-7": 22917,
+     "8+": 2012
+    }
+   },
+   "India": {
+    "s1": 809986,
+    "matchesPerS1": 3.3897,
+    "emptyShare": 0.05759,
+    "buckets": {
+     "0": 46647,
+     "1-2": 192201,
+     "3-5": 486200,
+     "6-7": 77595,
+     "8+": 7343
+    }
+   }
+  }
+ },
+ "checks": [
+  {
+   "check": "Test S1 rows",
+   "source": "§2.1: 1,732,544",
+   "expected": "1732544",
+   "actual": "1732544",
+   "pass": true
+  },
+  {
+   "check": "Test S2 + S3 records",
+   "source": "§2.1: 9,969,589",
+   "expected": "9969589",
+   "actual": "9969589",
+   "pass": true
+  },
+  {
+   "check": "Candidate pairs",
+   "source": "§3.1: 10,594,837",
+   "expected": "10594837",
+   "actual": "10594837",
+   "pass": true
+  },
+  {
+   "check": "S1 with no candidate",
+   "source": "§3.1: 5,354",
+   "expected": "5354",
+   "actual": "5354",
+   "pass": true
+  },
+  {
+   "check": "Non-empty candidate rows",
+   "source": "§B: 1,727,190",
+   "expected": "1727190",
+   "actual": "1727190",
+   "pass": true
+  },
+  {
+   "check": "Candidates per S1 (test)",
+   "source": "§3.1: 6.1152",
+   "expected": "6.1152",
+   "actual": "6.1152",
+   "pass": true
+  },
+  {
+   "check": "Matched records",
+   "source": "§4.4: 5,852,231",
+   "expected": "5852231",
+   "actual": "5852231",
+   "pass": true
+  },
+  {
+   "check": "Empty match rows",
+   "source": "§B: 100,129",
+   "expected": "100129",
+   "actual": "100129",
+   "pass": true
+  },
+  {
+   "check": "Non-empty match rows",
+   "source": "§B: 1,632,415",
+   "expected": "1632415",
+   "actual": "1632415",
+   "pass": true
+  },
+  {
+   "check": "Matches per S1 (test)",
+   "source": "§2.2: ~3.38",
+   "expected": "3.38",
+   "actual": "3.38",
+   "pass": true
+  },
+  {
+   "check": "France test S1",
+   "source": "§2.2.1: 259,452",
+   "expected": "259452",
+   "actual": "259452",
+   "pass": true
+  },
+  {
+   "check": "Matches outside their candidate list",
+   "source": "§B: every match lies inside its S1’s candidate list",
+   "expected": "0",
+   "actual": "0",
+   "pass": true
+  },
+  {
+   "check": "Records assigned to two S1",
+   "source": "§4.4, §B: no record is assigned to two S1",
+   "expected": "0",
+   "actual": "0",
+   "pass": true
+  },
+  {
+   "check": "France matches per S1",
+   "source": "§5: 3.321",
+   "expected": "3.321",
+   "actual": "3.321",
+   "pass": true
+  },
+  {
+   "check": "France share left empty (%)",
+   "source": "§5: 5.75 %",
+   "expected": "5.75",
+   "actual": "5.75",
+   "pass": true
+  },
+  {
+   "check": "India matches per S1",
+   "source": "§5: 3.39",
+   "expected": "3.39",
+   "actual": "3.39",
+   "pass": true
+  },
+  {
+   "check": "India share left empty (%)",
+   "source": "§5: 5.76 %",
+   "expected": "5.76",
+   "actual": "5.76",
+   "pass": true
+  },
+  {
+   "check": "US matches per S1",
+   "source": "§5: 3.385",
+   "expected": "3.385",
+   "actual": "3.385",
+   "pass": true
+  },
+  {
+   "check": "US share left empty (%)",
+   "source": "§5: 5.82 %",
+   "expected": "5.82",
+   "actual": "5.82",
+   "pass": true
+  }
+ ],
+ "sample": {
+  "design": "Per country, 1,000 S1 drawn at random (seeded hash) within match-count buckets. Singletons (100) and businesses with 8+ matches (60) are over-represented; the other buckets follow the country’s real distribution. India is topped up to at least 300 businesses with a match in an Indic script, France to at least 80 with an acronym-like candidate, by swapping within the largest buckets. Averages over the sample therefore differ from the full test set.",
+  "s1": 3000,
+  "s2Records": 8801,
+  "s3Records": 9629,
+  "candidatePairs": 18470,
+  "matchedPairs": 10392,
+  "byCountry": {
+   "France": {
+    "s1": 1000,
+    "targets": {
+     "0": 100,
+     "1-2": 225,
+     "3-5": 536,
+     "6-7": 79,
+     "8+": 60
+    },
+    "quota": {
+     "flag": "acronymCandidate",
+     "min": 80,
+     "natural": 176,
+     "final": 176
+    }
+   },
+   "India": {
+    "s1": 1000,
+    "targets": {
+     "0": 100,
+     "1-2": 214,
+     "3-5": 540,
+     "6-7": 86,
+     "8+": 60
+    },
+    "quota": {
+     "flag": "indicMatch",
+     "min": 300,
+     "natural": 309,
+     "final": 309
+    }
+   },
+   "US": {
+    "s1": 1000,
+    "targets": {
+     "0": 100,
+     "1-2": 213,
+     "3-5": 541,
+     "6-7": 86,
+     "8+": 60
+    },
+    "quota": null
+   }
+  }
+ },
+ "showcase": {
+  "examples": 10,
+  "verified": 7,
+  "pipeline": 3
+ },
+ "files": {
+  "sample_source1.tsv": 292024,
+  "sample_source2.tsv": 799919,
+  "sample_source3.tsv": 845553,
+  "candidate_pairs.tsv": 276806,
+  "matching_results.tsv": 173012,
+  "trace.json": 86445,
+  "showcase.json": 17730
+ }
+}

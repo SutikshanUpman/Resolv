@@ -1,0 +1,24 @@
+# pinned from the reference runs (Python 3.12.11)
+# torch 2.8.0+cu128 is served from the PyTorch index, not PyPI; this line lets `pip install -r requirements.txt` find it
+--extra-index-url https://download.pytorch.org/whl/cu128
+polars==1.44.2
+pyarrow==25.0.1
+numpy==1.26.4
+scikit-learn==1.3.2
+scipy==1.11.4
+lightgbm==4.7.0
+rapidfuzz==3.14.6
+anyascii==0.3.3
+torch==2.8.0+cu128
+transformers==5.17.0
+tokenizers==0.23.2
+safetensors==0.8.0
+joblib==1.6.0
+psutil==7.2.2
+huggingface-hub==1.33.0
+# notebook only
+pandas>=2.1
+matplotlib>=3.8
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.25

@@ -1,0 +1,815 @@
+{
+ "description": "Landing-page examples. \"verified\": train ground truth. \"pipeline\": matched by our pipeline on the test set, which has no labels. Chosen by rule in scripts/demo-data/showcase.ts.",
+ "examples": [
+  {
+   "id": "S1-62662330",
+   "country": "India",
+   "provenance": "verified",
+   "s1": {
+    "id": "S1-62662330",
+    "name": "Laxmi Properties",
+    "address": "891, Damodar Nagar Barra, Barra, Kanpur Nagar, Uttar Pradesh"
+   },
+   "records": [
+    {
+     "id": "S2-224656155",
+     "source": "S2",
+     "name": "लक्ष्मी प्रॉपर्टीज",
+     "address": "891, DAMODAR NAGAR BARRA, BARRA, KANPUR NAGAR, Uttar Pradesh",
+     "latin": "lksmi proprtij",
+     "script": "Devanagari",
+     "kinds": [
+      "script"
+     ]
+    },
+    {
+     "id": "S3-126449393",
+     "source": "S3",
+     "name": "laxmi properties",
+     "address": "Kanpur Nagar, Block B-#126 891, Barra, UP",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-686628291",
+     "source": "S3",
+     "name": "Laxmi Propertsfiges",
+     "address": null,
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "spelling",
+      "noAddress"
+     ]
+    },
+    {
+     "id": "S3-603082430",
+     "source": "S3",
+     "name": "Laxmi Properties Limited",
+     "address": "Block B-#126 891, Barra, Kanpur Nagar, UP",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "legal",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-274650064",
+     "source": "S3",
+     "name": "Laxmi  Properties",
+     "address": "Block B-#126 891, Kanpur Nagar, Kanpur, UP",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-56050640",
+     "source": "S3",
+     "name": "laxmiproperties.com",
+     "address": "Block B-#126 891, Barra, Kanpur Nagar, UP",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "domain",
+      "addressFormat"
+     ]
+    }
+   ],
+   "kinds": [
+    "script",
+    "formatting",
+    "addressFormat",
+    "spelling",
+    "noAddress",
+    "legal",
+    "domain"
+   ],
+   "scripts": [
+    "Devanagari"
+   ]
+  },
+  {
+   "id": "S1-521719459",
+   "country": "France",
+   "provenance": "pipeline",
+   "s1": {
+    "id": "S1-521719459",
+    "name": "Collège du Caarud",
+    "address": "8 Rue Cabanis, Lille, Hauts-de-France"
+   },
+   "records": [
+    {
+     "id": "S2-388331052",
+     "source": "S2",
+     "name": "du collège caarud",
+     "address": "8 RUE CAANIS, Lille",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "order",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S2-405046777",
+     "source": "S2",
+     "name": "Collège du Caarud  SA",
+     "address": "LILLE, 8 RUE CABAIS",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "legal",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S2-685793013",
+     "source": "S2",
+     "name": "Collège du Cerud",
+     "address": "8 R CABANIS, LILLE",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "spelling",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-289674198",
+     "source": "S3",
+     "name": "Caarud Collège",
+     "address": "8 Rue Cabanis, Lille, Hauts-de-France",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "shortened"
+     ]
+    },
+    {
+     "id": "S3-346579299",
+     "source": "S3",
+     "name": "Collège du Caarud",
+     "address": "8 Rue Cabanis, Lille, Nord",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-52565405",
+     "source": "S3",
+     "name": "Collège Du Caarud",
+     "address": "8 Rue Cabanis, Lille, Nord",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "addressFormat"
+     ]
+    }
+   ],
+   "kinds": [
+    "order",
+    "addressFormat",
+    "legal",
+    "spelling",
+    "shortened",
+    "formatting"
+   ],
+   "scripts": []
+  },
+  {
+   "id": "S1-876755890",
+   "country": "US",
+   "provenance": "verified",
+   "s1": {
+    "id": "S1-876755890",
+    "name": "Kanya's Ridge Contracting",
+    "address": "224 Center Street, Bremen, IN"
+   },
+   "records": [
+    {
+     "id": "S2-539906990",
+     "source": "S2",
+     "name": "Kanya's Contracting Ridge",
+     "address": null,
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "order",
+      "noAddress"
+     ]
+    },
+    {
+     "id": "S2-252046997",
+     "source": "S2",
+     "name": "Kanya's Ridge  Comtracatlng",
+     "address": "224 CENTER STREET, BREMEN, IN",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "spelling"
+     ]
+    },
+    {
+     "id": "S2-369745446",
+     "source": "S2",
+     "name": "KANYA'S RIDGE CONTRACTING CORP",
+     "address": "224 CENTER STREET, BREMEN, IN",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "legal"
+     ]
+    },
+    {
+     "id": "S3-462954152",
+     "source": "S3",
+     "name": "kanyasridgecontracting.com",
+     "address": "224. Center St, null, Bremen, Indiana",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "domain",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-530365726",
+     "source": "S3",
+     "name": "Kanya's Ridge [Contracting]",
+     "address": null,
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "noAddress"
+     ]
+    },
+    {
+     "id": "S3-305511627",
+     "source": "S3",
+     "name": "Kanya's [Ridge]",
+     "address": "224. Center St, null, Bremen, Indiana",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "shortened",
+      "addressFormat"
+     ]
+    }
+   ],
+   "kinds": [
+    "order",
+    "noAddress",
+    "spelling",
+    "legal",
+    "domain",
+    "addressFormat",
+    "formatting",
+    "shortened"
+   ],
+   "scripts": []
+  },
+  {
+   "id": "S1-959744739",
+   "country": "India",
+   "provenance": "verified",
+   "s1": {
+    "id": "S1-959744739",
+    "name": "Bharat Consultancy Pvt Ltd",
+    "address": "No 18-1/29 Road No 1, Adarsh Nagar Colony Hyderabad, Uppal, K.V.Rangareddy, Telangana"
+   },
+   "records": [
+    {
+     "id": "S2-568149577",
+     "source": "S2",
+     "name": "భారత్ కన్సల్టెన్సీ ప్రైవేట్ లిమిటెడ్",
+     "address": "K.V.RANGAREDDY, UPPAL, NO 18-1/29 RODA NO 1, Andhra Pradesh",
+     "latin": "bhart knsltensi praivet limited",
+     "script": "Telugu",
+     "kinds": [
+      "script",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S2-452130839",
+     "source": "S2",
+     "name": "Bharat Clbgonsultancy Pvt Ltd",
+     "address": "18-1/29 ROAD NO 1, ADARSH NAGAR COLONY HYDERABAD, UPPAL, Andhra Pradesh",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "spelling",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S2-292414739",
+     "source": "S2",
+     "name": "భారత్ కన్సల్టెన్సీ ప్రైవేట్ లిమిటెడ్",
+     "address": "18-1/29 ROAD NO 1, UPPAL, Andhra Pradesh",
+     "latin": "bhart knsltensi praivet limited",
+     "script": "Telugu",
+     "kinds": [
+      "script",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-252015768",
+     "source": "S3",
+     "name": "Bharat Consultancy Pvt Ltd.",
+     "address": "18-1/29/3 Road No 1, Adarsh Nagar Colony Hyderabad, K.v.rangareddy, Uppal, TG",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-37006595",
+     "source": "S3",
+     "name": "Mr #Bharatconsultancy",
+     "address": "Hyderabad, TG, Uppal, 18-1/29/3 Road No 1, Adarsh Nagar Colony Hyderabad",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "legal",
+      "honorific",
+      "spelling",
+      "addressFormat"
+     ]
+    }
+   ],
+   "kinds": [
+    "script",
+    "addressFormat",
+    "spelling",
+    "formatting",
+    "legal",
+    "honorific"
+   ],
+   "scripts": [
+    "Telugu"
+   ]
+  },
+  {
+   "id": "S1-399334133",
+   "country": "France",
+   "provenance": "pipeline",
+   "s1": {
+    "id": "S1-399334133",
+    "name": "Établissements Generations EI",
+    "address": "Calais, 83 Rue Van Grutten, Hauts-de-France"
+   },
+   "records": [
+    {
+     "id": "S2-776612891",
+     "source": "S2",
+     "name": "Établissements Generations EI",
+     "address": "(83) RUE VAN GRUTTEN, Hauts-de-France, CALAIS",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-160138271",
+     "source": "S3",
+     "name": "Établissements Genelations EI",
+     "address": "#83 R. Van Grutten, Calais, Hauts-de-France",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "spelling",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-210183178",
+     "source": "S3",
+     "name": "Établissements Generations",
+     "address": "#83 Rue Van Grutten, Calais, Hauts-de-France",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "shortened",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-901613013",
+     "source": "S3",
+     "name": "Établissements Generations E.I.",
+     "address": "Calais, Hauts-de-France, #83 R Van Grutten",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-925222129",
+     "source": "S3",
+     "name": "tablissementsgenerations.com",
+     "address": "#83 Rue Van Grutetn, Hauts-de-France, Calais",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "domain",
+      "addressFormat"
+     ]
+    }
+   ],
+   "kinds": [
+    "addressFormat",
+    "spelling",
+    "shortened",
+    "formatting",
+    "domain"
+   ],
+   "scripts": []
+  },
+  {
+   "id": "S1-214881938",
+   "country": "US",
+   "provenance": "verified",
+   "s1": {
+    "id": "S1-214881938",
+    "name": "Corporate Electronics Industries Inc",
+    "address": "4445 Heather Street, Forest Grove, OR"
+   },
+   "records": [
+    {
+     "id": "S2-722047857",
+     "source": "S2",
+     "name": "CORPORATE ELECTRONICS  INDUSTRIES INC",
+     "address": null,
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "noAddress"
+     ]
+    },
+    {
+     "id": "S2-484422228",
+     "source": "S2",
+     "name": "Corporate Electronics Industries-Inc",
+     "address": "FOREST GROVE, OR, 4445 HEATHER ST",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-173968334",
+     "source": "S3",
+     "name": "Corporate Électronics Électronics Industries Inc",
+     "address": "4445b Heather St, Forest Grove, Oregon",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "repeated",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-671630139",
+     "source": "S3",
+     "name": "C0rporate  Electronics Industries Inc",
+     "address": "Oregon, Forest Grove, 4445b Heather St",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "spelling",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-367822292",
+     "source": "S3",
+     "name": "Corporate Electronics Industries",
+     "address": "4445b Heather St, Forest Grove, Oregon",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "legal",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-299092736",
+     "source": "S3",
+     "name": "Corporate Electronics Industries",
+     "address": null,
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "legal",
+      "noAddress"
+     ]
+    }
+   ],
+   "kinds": [
+    "formatting",
+    "noAddress",
+    "addressFormat",
+    "repeated",
+    "spelling",
+    "legal"
+   ],
+   "scripts": []
+  },
+  {
+   "id": "S1-505076726",
+   "country": "India",
+   "provenance": "verified",
+   "s1": {
+    "id": "S1-505076726",
+    "name": "Maa Finance LLP",
+    "address": "Flr-3, Hakimi Edifice, 5Th Cross Rd, Vinayaka Ngr, Bangalore South, Bangalore, Karnataka"
+   },
+   "records": [
+    {
+     "id": "S2-340814974",
+     "source": "S2",
+     "name": "ಮಾ ಫೈನಾನ್ಸ್ ಎಲ್ಎಲ್‌ಪಿ",
+     "address": "HN 515 FLR-3, BANGALORE SOUTH, BANGALORE, Karnataka",
+     "latin": "ma phainans elelpi",
+     "script": "Kannada",
+     "kinds": [
+      "script",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S2-320019107",
+     "source": "S2",
+     "name": "Maa Maa Finance L.L.P.",
+     "address": "HN 515 FLR-3, HAKIMI EDIFICE, 5TH CROSS RD, VINAYAKA NGR, BANGALORE SOUTH, Karnataka",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "legal",
+      "repeated",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S2-368107763",
+     "source": "S2",
+     "name": "Maa Finance L.L.P.",
+     "address": "HN 515 FLR-3, HAKIMI EDIFICE, 5TH CROSS RD, VINAYAKA NGR, BANGALORE SOUTH, Karnataka",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-65142091",
+     "source": "S3",
+     "name": "Maa Finance (LLP)",
+     "address": "No 598 Flr-3, ಕರ್ನಾಟಕ, Bangalore, Bangalore South",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "addressFormat"
+     ]
+    }
+   ],
+   "kinds": [
+    "script",
+    "addressFormat",
+    "legal",
+    "repeated",
+    "formatting"
+   ],
+   "scripts": [
+    "Kannada"
+   ]
+  },
+  {
+   "id": "S1-217183879",
+   "country": "France",
+   "provenance": "pipeline",
+   "s1": {
+    "id": "S1-217183879",
+    "name": "Pas Ecole EI",
+    "address": "24 Rue Blanche, Lille, Hauts-de-France"
+   },
+   "records": [
+    {
+     "id": "S2-116711202",
+     "source": "S2",
+     "name": "Pas Ecole EI",
+     "address": "24 RUE BLANCHE, LILLE, Nord",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S2-539468088",
+     "source": "S2",
+     "name": "Pas Ecole",
+     "address": "24 RUE BLANCHE, LILLE, Nord",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "shortened",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-141054720",
+     "source": "S3",
+     "name": "Pas Eco1e [EI]",
+     "address": "24 Rue Blanche, Lille, Nord",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "spelling",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-529227559",
+     "source": "S3",
+     "name": "Pas Ecole Ei",
+     "address": "24 R. Blanche, Lille, Nord",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "addressFormat"
+     ]
+    }
+   ],
+   "kinds": [
+    "addressFormat",
+    "shortened",
+    "spelling",
+    "formatting"
+   ],
+   "scripts": []
+  },
+  {
+   "id": "S1-875729276",
+   "country": "US",
+   "provenance": "verified",
+   "s1": {
+    "id": "S1-875729276",
+    "name": "Felita's Continental Auto Body",
+    "address": "VA, Surry County, 478 Golden Hill Road"
+   },
+   "records": [
+    {
+     "id": "S2-906210067",
+     "source": "S2",
+     "name": "Felita's Continental - 1877344203",
+     "address": null,
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "shortened",
+      "noAddress"
+     ]
+    },
+    {
+     "id": "S2-832730116",
+     "source": "S2",
+     "name": "felita's continental auto body",
+     "address": "478. GOLDEN HILL ROAD, SURRY COUNTY, VA",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "formatting",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-74763643",
+     "source": "S3",
+     "name": "Felita'S Cóntinental Auto Body",
+     "address": "Virginia, 478 Golden Hill Rd, Surry County",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-440538368",
+     "source": "S3",
+     "name": "Felita's Auto Continental Body",
+     "address": "Virginia, Surry County, 478 Golden Hill Rd",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "order",
+      "addressFormat"
+     ]
+    }
+   ],
+   "kinds": [
+    "shortened",
+    "noAddress",
+    "formatting",
+    "addressFormat",
+    "order"
+   ],
+   "scripts": []
+  },
+  {
+   "id": "S1-91240758",
+   "country": "India",
+   "provenance": "verified",
+   "s1": {
+    "id": "S1-91240758",
+    "name": "Sky Logistics Private Limited",
+    "address": "170 A&B, C R Avenue Metro Tower, Kolkata, Kolkata, Howrah, West Bengal"
+   },
+   "records": [
+    {
+     "id": "S2-331234058",
+     "source": "S2",
+     "name": "স্কাই লজিস্টিকস প্রাইভেট লিমিটেড",
+     "address": "H.NO 170 A&B, CALCUTTA, West Bengal, HOWRAH",
+     "latin": "skai ljistiks praibhet limited",
+     "script": "Bengali",
+     "kinds": [
+      "script",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S2-598196214",
+     "source": "S2",
+     "name": "স্কাই লজিস্টিকস প্রাইভেট লিমিটেড",
+     "address": "170 A&B, HOWRAH, CALCUTTA, West Bengal",
+     "latin": "skai ljistiks praibhet limited",
+     "script": "Bengali",
+     "kinds": [
+      "script",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-619599434",
+     "source": "S3",
+     "name": "Private Sky Logistids Limited",
+     "address": "70 A&b, C R Avenue Metro Tower, Kolkata, Kolkata, Howrah, WB",
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "spelling",
+      "addressFormat"
+     ]
+    },
+    {
+     "id": "S3-586046466",
+     "source": "S3",
+     "name": "Sky Logistics Private",
+     "address": null,
+     "latin": null,
+     "script": null,
+     "kinds": [
+      "legal",
+      "noAddress"
+     ]
+    }
+   ],
+   "kinds": [
+    "script",
+    "addressFormat",
+    "spelling",
+    "legal",
+    "noAddress"
+   ],
+   "scripts": [
+    "Bengali"
+   ]
+  }
+ ]
+}
